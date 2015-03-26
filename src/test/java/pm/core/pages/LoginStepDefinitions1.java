@@ -25,13 +25,13 @@ public class LoginStepDefinitions1 {
     WebDriver driver;
     Login login;
 
-    @Before
+  /*  @Before
     public void setUp() throws Exception {
         driver = new FirefoxDriver();
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         driver.navigate().to(Constants.LOGIN_PAGE);
         driver.manage().window().maximize();
-    }
+    }*/
 
     @Given("^The login page of ProcessMaker app is Loaded$")
     public void the_login_page_of_ProcessMaker_app_is_Loaded() throws Throwable {

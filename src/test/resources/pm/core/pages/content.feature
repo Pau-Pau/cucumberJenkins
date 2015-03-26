@@ -1,8 +1,5 @@
-@Login @HomePage
-Feature: Login to ProcessMaker app with valid Credentials
-  In order to test the login page
-  As an admin user
-  I want to successful login.
+Feature: Open the tab on the main menu of Processmaker.
+  It shows the contents of Home - Design - Dashboard - Admin
 
   Scenario: Verify that it is possible to login step by step
     Given The login page of ProcessMaker app is Loaded
