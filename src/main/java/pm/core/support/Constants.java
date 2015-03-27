@@ -13,7 +13,7 @@ package pm.core.support;
  public class Constants {
 
     // Default credentials variables
-    public static final String SERVER = "192.168.10.128:8081";
+    public static final String SERVER = "192.168.10.100:8080";
     public static final String LOGIN_PAGE = "http://"+ SERVER +"/";
     public static final String ADMIN_USER = "admin";
     public static final String ADMIN_PASS = "admin";
