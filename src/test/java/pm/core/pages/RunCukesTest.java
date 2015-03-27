@@ -9,7 +9,8 @@ import org.junit.runner.RunWith;
  Date:  2/9/15.
  */
 @RunWith(Cucumber.class)
-@Cucumber.Options(format = {"pretty", "html:target/cucumber", "json:target/cucumber.json"},
-features = {"src/test/resources/pm/core/pages/login1.feature"})
+@Cucumber.Options(format = {"pretty", "html:target/cucumber", "json:target/cucumber.json"}
+//features = {"src/test/resources/pm/core/pages/login1.feature"}
+)
 public class RunCukesTest {
 }
