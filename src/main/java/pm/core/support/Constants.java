@@ -20,4 +20,8 @@ package pm.core.support;
     public static final String DEFAULT_WS = "workflow";
     public static final String DEFAULT_LANG = "English";
     public static final String HOME_PAGE = "http://"+ SERVER +"/sys"+ DEFAULT_WS +"/en/neoclassic/processes/main";
+    public static final String CASES_PAGE = "http://"+ SERVER +"/sys"+ DEFAULT_WS +"/en/neoclassic/cases/main";
+    public static final String PROCESS_PAGE = "http://"+ SERVER +"/sys"+ DEFAULT_WS +"/en/neoclassic/processes/main";
+    public static final String DASHBOARDS_PAGE = "http://"+ SERVER +"/sys"+ DEFAULT_WS +"/en/neoclassic/dashboard/main";
+    public static final String SETUP_PAGE = "http://"+ SERVER +"/sys"+ DEFAULT_WS +"/en/neoclassic/setup/main";
 }
