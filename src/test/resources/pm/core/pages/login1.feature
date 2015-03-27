@@ -1,5 +1,5 @@
 @Login @HomePage
-Feature: Login to ProcessMaker app with valid Credentials
+Feature: Login ProcessMaker app with valid Credentials PAO
   In order to test the login page
   As an admin user
   I want to successful login.
